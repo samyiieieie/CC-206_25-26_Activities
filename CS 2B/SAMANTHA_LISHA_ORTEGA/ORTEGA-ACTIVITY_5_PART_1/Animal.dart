@@ -25,7 +25,5 @@ class Animal {
         "Date of Birth: ${dob.toLocal().toString().split(' ')[0]}\n"
         "Number of Legs: $numLegs";
   }
-  
-
 
 }
