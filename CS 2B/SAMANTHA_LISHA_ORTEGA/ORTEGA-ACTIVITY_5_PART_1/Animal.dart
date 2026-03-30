@@ -1,4 +1,4 @@
-class Animal {
+class Animal { //class and encapsulation
   //attributes
   String name;
   String kingdom;
@@ -8,7 +8,7 @@ class Animal {
   //constructor
   Animal (this.name, this.kingdom, this.dob, this.numLegs);
   
-  //method- walk
+  //method- walk (method and conditional)
   void walk (String direction){
     if (numLegs > 0) {
       print("$name is walking towards the $direction.");
@@ -17,7 +17,7 @@ class Animal {
     }
   }
 
-  //method: displayInfo
+  //method: displayInfo (method and string interpolation)
   String displayInfo() {
     return 
         "Name: $name\n"
