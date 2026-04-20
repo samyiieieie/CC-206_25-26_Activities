@@ -102,7 +102,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'CS Student · WVSU, Iloilo',
+                  'CS Student · WVSU, Iloilo city',
                   style: TextStyle(
                     color: Colors.white.withOpacity(0.85),
                     fontSize: 13,
@@ -127,27 +127,22 @@ class ProfileScreen extends StatelessWidget {
       {
         'icon': Icons.location_on_outlined,
         'label': 'Location',
-        'value': 'Iloilo, Philippines',
+        'value': 'Iloilo city, Philippines',
       },
       {
         'icon': Icons.phone_outlined,
         'label': 'Contact',
-        'value': '+63 947 239 3469',
+        'value': '+63-947-239-3469',
+      },
+      {
+        'icon': Icons.school_outlined,
+        'label': 'Course, Year, and Section',
+        'value': 'BS Computer Science - 2B',
       },
       {
         'icon': Icons.star_outline_rounded,
         'label': 'Hobbies',
-        'value': 'Coding, Design, Matcha',
-      },
-      {
-        'icon': Icons.school_outlined,
-        'label': 'Course',
-        'value': 'BS Computer Science',
-      },
-      {
-        'icon': Icons.emoji_events_outlined,
-        'label': 'Achievement',
-        'value': 'SikapTala 2025 – 3rd Place',
+        'value': 'Coding, Design, Sleeping',
       },
     ];
 
@@ -229,8 +224,8 @@ class ProfileScreen extends StatelessWidget {
               "civic tech, mobile development, and creating meaningful digital "
               "experiences for local communities. Outside of code, I enjoy "
               "sipping matcha, obsessing over aesthetic design systems, and "
-              "joining hackathons with my team — we placed 3rd at SikapTala "
-              "Nationals 2025 and won BizCon 2026. I believe technology, when "
+              "joining hackathons with my team — 3rd placer at SikapTala Nationals 2025, "
+              "3rd placer at UPV Komsai Hack 2026, and champion at BizCon 2026. I believe technology, when "
               "built with heart, can genuinely change lives.",
               style: TextStyle(
                 fontSize: 13.5,
@@ -281,16 +276,21 @@ class _InfoRow extends StatelessWidget {
               ),
             ),
           ),
-          Flexible(
+          Padding(
+          padding: const EdgeInsets.only(right: 8),
+          child: Flexible(
             child: Text(
               value,
               textAlign: TextAlign.right,
+              softWrap: true,
               style: const TextStyle(
-                fontSize: 12.5,
+                fontSize: 11.5,
                 fontWeight: FontWeight.w600,
                 color: AppTheme.textDark,
+                height: 1.6,
               ),
             ),
+          ),
           ),
         ],
       ),
