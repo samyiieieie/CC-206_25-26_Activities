@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen>
               ),
               const SizedBox(height: 4),
               Text(
-                'Say hello to Mochi 🐱',
+                'Say hello to Luna 🐱',
                 style: TextStyle(
                   fontSize: 14,
                   color: AppTheme.primary.withOpacity(0.8),
@@ -146,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Mochi',
+                                  'Luna',
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w700,

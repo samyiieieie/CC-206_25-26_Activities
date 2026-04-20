@@ -15,3 +15,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Screens
+
+### Profile Screen
+- Hero header with profile photo, full name, and school
+- 5 info rows: Email, Location, Contact, Course, Hobbies
+- Biography section
+
+### Home Screen
+- Pet photo card
+- Sound button that plays your pet's sound with a wave animation
