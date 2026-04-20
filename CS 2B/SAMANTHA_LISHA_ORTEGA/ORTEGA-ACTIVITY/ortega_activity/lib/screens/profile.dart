@@ -224,8 +224,8 @@ class ProfileScreen extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              "Hi! I'm Samantha, a Computer Science student at the University "
-              "of the Philippines Visayas in Iloilo. I'm passionate about "
+              "Hi! I'm Samantha, a Computer Science student at West Visayas "
+              "State University in Iloilo city. I'm passionate about "
               "civic tech, mobile development, and creating meaningful digital "
               "experiences for local communities. Outside of code, I enjoy "
               "sipping matcha, obsessing over aesthetic design systems, and "
